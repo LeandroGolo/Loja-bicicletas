@@ -9,6 +9,17 @@ p {
   font-size: 14px;
 }
 
+.subtitulo {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: .1em;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 .btn {
   color: #fec63e;
   border: 3px solid #fec63e;
@@ -27,6 +38,11 @@ p {
   border: 3px solid #ffffff;
 }
 
+.btn.btn-preto:hover {
+  color: #000000;
+  border: 3px solid #000000;
+}
+
 /* HEADER */
 
 .header {
@@ -35,6 +51,7 @@ p {
   width: 100%;
   background-color: #fec63e;
   padding: 15px 0;
+  z-index: 6;
 }
 
 .header_menu {
@@ -65,6 +82,10 @@ p {
 }
 
 /* INTRODUÇÃO */
+
+.produtos{
+  padding-top: 40px;
+}
 
 .introducao {
   width: 100%;
@@ -109,4 +130,66 @@ p {
   font-size: 14px;
   letter-spacing: .1em;
 }
+
+/* PRODUTOS */
+
+
+.subtitulo::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000000;
+  margin: 8px auto;
+}
+
+.produtos_lista li {
+  background: #fec63e;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.produtos_lista li p {
+  padding: 10px 20px 20px 20px;
+}
+
+.produtos_lista li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-top: 20px;
+}
+
+.produtos_lista li h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000000;
+  margin: 2px auto;
+}
+
+.produtos_icone {
+  background: #000000; 
+  padding: 20px;
+}
+.call {
+  text-align: center;
+  padding-top: 40px;
+  clear: both;
+}
+
+
+.call p {
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
 
