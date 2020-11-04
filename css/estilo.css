@@ -156,6 +156,7 @@ img {
 
  .produtos {
    padding: 40px 0 40px 0;
+   text-align: center;
  }
 
 .subtitulo::after {
@@ -181,6 +182,7 @@ img {
   text-align: center;
   padding-bottom: 10px;
   margin-bottom: 20px;
+
 }
 
 .produtos_lista li p {
@@ -229,7 +231,7 @@ img {
   padding: 40px 0;
 }
 
-.portfolio, .subtitulo {
+.portfolio .subtitulo {
   color: #fec63e;
 }
 
@@ -241,7 +243,7 @@ img {
   margin-top: 20px;
 }
 
-.portfolio, .call p {
+.portfolio .call p {
   color: #ffffff;
   margin-bottom: 30px;
 }
@@ -298,13 +300,97 @@ img {
                             /* FOOTER */
 
 
+.quebra {
+  width: 100%;
+  height: 220px;
+  background-image: url(../img/bg-footer.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 40px;
+}
 
+.quebra .quote-externo {
+  max-width: 400px;
+}
 
+                          /* FOOTER */
 
+.footer {
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px 0;
+}
 
+.footer h3 {
+  font-size: 18px;
+  line-height: 25px;
+  color: #fec63e;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
 
+.footer h3:after {
+  content: "";
+  background: #fec63e;
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin: 6px 0 12px 0;
+}
 
+.footer_historia {
+  padding-right: 80px;
+}
 
+.footer_contato ul li {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  line-height: 20px;
+}
 
+.footer_social ul li {
+  font-size: 40px;
+  display: inline-block;
+  padding: 10px;
+  transition: 0.5s;
+}
 
+.footer_social ul li a{
+  color: #fec63e;
+  transition: 0.5s;
+}
+.footer_social ul li a:hover {
+  color: #ffffff;
+  content: "";
+}
+
+.copy {
+  width: 100%;
+  background-color: #fec63e;
+  padding: 20px 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  letter-spacing: .1em;
+}
+
+.copy a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #000000;
+  transition: 0.9s;
+  border-bottom: 2px solid transparent;
+  padding: 2px;
+}
+
+.copy a:hover {
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
 
